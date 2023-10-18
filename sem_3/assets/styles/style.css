@@ -71,14 +71,15 @@ body {
 .content {
     width: 1170px;
     height: 536px;
+    justify-content: space-between;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
-.seo {
+/* .seo {
     margin-right: 134.94px;
-}
+} */
 
 .seo_digi {
     font-family: Gilroy-Bold;
@@ -129,7 +130,7 @@ body {
 .footer {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
 }
 
 .footer_list {
