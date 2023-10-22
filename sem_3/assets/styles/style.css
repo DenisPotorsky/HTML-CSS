@@ -151,8 +151,11 @@ body {
     align-items: center;
     grid-template-columns: repeat(3, 370px);
     height: 491px;
-    justify-content: center;
+    width: 1170px;
+    justify-content: space-between;
     justify-items: end;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -200,6 +203,8 @@ body {
     height: 919px;
     text-align: center;
     background: #FAFAFA;
+    justify-content: space-between;
+
 }
 
 .icon_button_ {
