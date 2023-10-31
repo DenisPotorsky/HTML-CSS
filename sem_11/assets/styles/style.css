@@ -1,6 +1,5 @@
 body {
-    width: 1600px;
-    height: 2925px;
+    margin: 0;
 }
 
 @font-face {
@@ -29,9 +28,10 @@ body {
 }
 
 .header {
-
-    padding-left: 231px;
-    padding-right: 240px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 230px;
+    padding-right: 230px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,9 @@ body {
 .main__photo {
     background-color: #F1E4E6;
     display: flex;
-
+    margin: 0 auto;
+    max-width: 1600px;
+    margin-bottom: 65px;
 }
 
 .main__text {
@@ -58,8 +60,6 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-left: 91px;
-    margin-right: 303px;
 }
 
 .the_brand {
@@ -80,14 +80,15 @@ body {
 }
 
 .offer {
-    padding: 65px 230px 96px 230px;
-    margin-bottom: 96px;
+    max-width: 1140px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
 .box {
+    position: relative;
     width: 360px;
     height: 260px;
     text-align: center;
@@ -110,15 +111,17 @@ body {
     background-image: url(../images/Rectangle\ 20.png);
     height: 180px;
     text-align: center;
-    padding-bottom: 65px;
+    position: relative;
 }
 
 .upper__txt {
-    margin-top: 105px;
+    position: absolute;
     color: #FFF;
     font-family: Lato-Regular;
     font-size: 16px;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .lower__txt {
@@ -129,6 +132,8 @@ body {
 
 .featured__text {
     text-align: center;
+    margin-top: 96px;
+    margin-bottom: 48px;
 }
 
 .featured {
@@ -146,9 +151,10 @@ body {
 }
 
 .products {
+    max-width: 1140px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 65px 230px 96px 230px;
     gap: 30px;
 
 }
@@ -183,7 +189,8 @@ body {
 }
 
 .button__area {
-    padding: 48px 693px 60px 695px;
+    display: flex;
+    justify-content: center;
 }
 
 .button {
@@ -194,6 +201,8 @@ body {
     border: transparent;
     background-color: #FFF;
     text-align: center;
+    margin-top: 48px;
+    margin-bottom: 60px;
 }
 
 .button__area p {
