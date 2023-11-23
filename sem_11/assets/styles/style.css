@@ -337,6 +337,11 @@ body {
         margin-top: 148px;
     }
 
+    .featured__text {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
     .the_brand_sec {
         font-size: 20px;
     }
@@ -351,8 +356,9 @@ body {
 
     .box {
         max-height: 247px;
-        max-width: 343px;
-        background-size: 343px auto;
+        max-width: 100%;
+        background-position: center;
+        background-size: cover;
         margin-left: 16px;
         margin-right: 16px;
 
@@ -361,7 +367,7 @@ body {
     .box_4 {
         min-height: 111px;
         min-width: 232px;
-        width: 344px;
+        width: 360px;
     }
 
     .products {
@@ -369,5 +375,21 @@ body {
         justify-items: center;
         padding-left: 8px;
         padding-right: 8px;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .product__foto {
+        width: 100%;
+    }
+
+    .product_description {
+        max-width: 100%;
+    }
+
+    .button {
+        margin-top: 40px;
     }
 }
